@@ -1,0 +1,16 @@
+Data structures are a way to store data in an efficient manner inside the computer component called
+Random Access Memory (RAM). RAM is usually referred to as memory.
+
+An array is an ordered collection of contiguous (next or together in sequence) elements, i.e., [1, 3, 5].
+But computers only understand data in terms of bits, i.e., 0s and 1s.
+
+[1, 3, 5] all have binary representation (they can be represented in 0s and 1s). If we use a single byte
+to store each, then 1 will be 00000001, 3 will be 00000011, 5 will be 00000101. When we store an array
+in RAM, each element is stored continously in order.
+
+Integers take up 4 bytes (32 bits) in memory. An address and a value gets associated with an integer
+upon storing it in RAM. An address is just a distinct location that each one of the values is stored at.
+Each value is stored contiguously in the RAM, just like an array. Since each integer takes 4 bytes of
+space, the addresses are 4 bytes apart. But if we were storing characters, each character stores 1 byte
+of space. So, the addresses will be 1 byte apart. The size or the type of data we store doesn't really
+matter, as long as the address is incremented relative to the size of the data type.\
