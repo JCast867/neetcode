@@ -31,6 +31,8 @@ class Solution:
 
     If nothing returns from the previous for loop,
     then I return False since it has no duplicates
+
+    The time complexity will be O(n) with space complexity being O(n)
     '''
     def hasDuplicate(self, nums: List[int]) -> bool:
         '''
