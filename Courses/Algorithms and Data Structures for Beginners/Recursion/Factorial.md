@@ -1,4 +1,4 @@
-# Recursion (One Branch) Factorial
+# Recursion (One Branch)
 Recursion is when a function calls itself, usually with a different input. This is known as a **recursive function**. Recursive functions can be thought of as functions that breaks down a problem into smaller sub-problems and solves them in reverse order. It's usually possible to convert a recursive function into an iterative one, and vice versa. The recursive function has two parts. The base case and the recursive case. 
 
 ## About
